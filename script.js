@@ -25,13 +25,9 @@ body = document.querySelector('body'),
 home = document.querySelector(".home-content");
 
 function switch_page(page) {
-  actual_link = body.querySelector(".choosen")
-  actual_link.classList.toggle("choosen");
   actual_page = body.querySelector(".home-content .choosen")
   actual_page.style.display = "none"
   actual_page.classList.toggle("choosen");
-  new_link = body.querySelector(page)
-  new_link.classList.toggle("choosen");
   new_page = body.querySelector(".home-content " + page)
   new_page.style.display = "block"
   new_page.classList.toggle("choosen");
