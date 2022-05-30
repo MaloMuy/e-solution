@@ -134,7 +134,7 @@
   width: 100%;
 }
 
-.sidebar .bx-search {
+/*.sidebar .bx-search {
   position: absolute;
   top: 50%;
   left: 0;
@@ -152,7 +152,7 @@
 .sidebar .bx-search:hover {
   background: #fdf6e3;
   color: #204f4f;
-}
+}*/
 
 .sidebar li a {
   display: flex;
