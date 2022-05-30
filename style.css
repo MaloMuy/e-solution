@@ -245,6 +245,7 @@
   background: #002b36;
 }
 
+
 .home-content a .links_name {
   color: #fdf6e3;
   font-size: 15px;
@@ -262,6 +263,38 @@
 
 .home-content a:hover .links_name,
 .home-content a:hover i {
+  transition: all 0.5s ease;
+  color: #002b36;
+}
+
+.home-content c {
+  display: flex;
+  height: 100%;
+  width: 27%;
+  border-radius: 1rem;
+  align-items: center;
+  text-decoration: none;
+  transition: all 0.4s ease;
+  background: #002b36;
+}
+
+.home-content c .links_name {
+  color: #fdf6e3;
+  font-size: 15px;
+  font-weight: 400;
+  white-space: nowrap;
+  opacity: 100;
+  pointer-events: none;
+  transition: 0.4s;
+}
+
+.home-content.open c .links_name {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.home-content c:hover .links_name,
+.home-content c:hover i {
   transition: all 0.5s ease;
   color: #002b36;
 }
